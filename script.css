@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    display:flex;
+
+}
+nav ul{
+
+  border: 2px solid black;
+  height: 95vh;
+  width: 17vw;
+  text-align: center;
+  font-size: 3vh;
+  padding:40px;
+  justify-content: space-evenly;
+  list-style-type: none;
+  cursor: pointer;
+  flex-direction: column;
+  font-weight: 500;
+   font-style: bold;
+} 
+nav ul li{
+    padding:20px;
+}
+.container {
+    display: flex;
+    height: 95vh;
+}
+.mid{
+   
+    width: cal(100%-25vw);
+    background-color: aqua;
+    flex-direction: grid;
+    display: flex;
+    overflow-y: auto;
+}
+
+.section{
+   text-align: center;
+   align-items: center;
+    display: grid;
+    flex-wrap:wrap ;
+    position: relative;
+  width: 150vw;
+  padding: 25px;
+ 
+    
+}
+.section section {
+    height: 8vh;
+    border: 2px solid black;
+    background-color: aqua;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    flex-shrink: 0;
+}
+.head{
+    text-align: center;
+    font-size: 6vh;
+    font-style: italic;
+}
+#students{
+    
+   height:10vh;
+    border:2px solid black;
+    background-color: aqua;
+}
+#teachers{
+    height:10vh;
+    border:2px solid black;
+    background-color: aqua;
+}
+#classrooms{
+    height:10vh;
+    border:2px solid black;
+    background-color: aqua;
+}
+#buses{
+    height:10vh;
+    border:2px solid rgb(20, 16, 16);
+    background-color: aqua;
+}
+ .school{
+    border:1px solid rgb(156, 152, 152);
+    box-shadow: 10px 10px 10px 10px grey ;
+    padding: 20px;
+    margin: 30px 0px 0px ;
+    font-size: 25px;
+
+ }
+ .year {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+   
+ }
+ #schl a {
+    color: black !important;
+    text-decoration: none !important;
+}
+.imge img{
+    margin: 30px;
+    height: 40vh;
+    width: 86vw;
+    object-fit: cover;
+}
+#name{
+    font-style:oblique;
+    font-size: 5vh;
+}
+#para{
+    font-size: 20px;
+    padding: 20px;
+}
+.info{
+    border:1px solid rgb(146, 143, 143);
+    box-shadow: 10px 10px 30px 10px rgb(39, 38, 38) ;
+    padding: 20px;
+    margin: 30px 0px 0px ;
+}
+.info h3{
+    font-size: 32px;
+}
+.info h4{
+    font-size: 21px;
+}
+.info h5{
+    font-size: 15px;
+}
+.info p{
+    padding:7px;
+    font-size: 20px;
+}
+.faclity{
+    border:1px solid black;
+    box-shadow: 10px 10px 30px 10px rgb(122, 119, 119) ;
+    padding: 20px;
+    margin: 30px 0px 0px ;
+    padding:20px;
+}
+.one{
+    display:flex;
+}
+.space{
+    padding: 80px;
+    width: 98vw;
+    border:1px solid gray;
+    margin:160px 20px;
+    
+}
+.space form{
+    border: 1px black solid;
+    padding:30px 10px 10px 10px;
+    margin:30px;
+
+}
+.space label{
+    font-size: 30px;
+    font-weight: 100;
+  
+}
+.space h3{
+
+    font-size: 35px;
+}
+ form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.holi img{
+    height:90vh;
+    width:90vw;
+    object-fit: cover;
+}
+#holid a{
+    color: black !important;
+    text-decoration: none !important;
+}
+.sidebarGo{
+    transform: translate(-443px ,0px);
+    position:absolute;
+    
+}
+.hamburger {
+    position: absolute;
+    left: 10px;
+     /* Ensure this line is present if you want the container to be positioned at the bottom */
+    display: flex;
+    align-items: center; /* Align items vertically center */
+    margin: 4px -33px; /* Center the images within the container */
+    padding: 31px; 
+
+}
+.cross{
+    position: absolute;
+    left: 10px;
+     /* Ensure this line is present if you want the container to be positioned at the bottom */
+    display: flex;
+    align-items: center; /* Align items vertically center */
+    margin: 4px 18vw; 
+    padding: 31px; 
+}
+
+.sidebarGo{
+    display:none;
+
+}
+.bar {
+    width: 26px;
+    transition: transform 0.3s ease;
+  
+}
